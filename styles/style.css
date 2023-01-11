@@ -1,0 +1,116 @@
+/* Cabeçalho da Página */
+
+header {
+    font-family: 'Pacifico', cursive;
+    background: #3b8183;
+    padding: 0 0 2em;
+}
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 55px;
+    right: 0;
+}
+
+.title {
+    font-size: 3em;
+}
+
+.caixa span {
+    color: #c9306b;
+}
+
+/* Corpo da página */
+
+main {
+    background: #ffd2cb;
+}
+
+.box-second-title {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.second-title {
+    padding: 20px 20px;
+    font-size: 2em;
+    text-align: center;
+    font-style: italic;
+}
+
+.bolos {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.bolos li {
+    display: inline-block;
+    text-align: center;
+    width: 40%;
+    vertical-align: top;
+    margin: 0 30px 20px;
+}
+
+.bolos li img {
+    width: 100%;
+}
+
+.bolos h3 {
+    font-size: 20px;
+    margin: 0 0 10px;
+    font-style: italic;
+}
+
+.bolos p {
+    font-weight: bold;
+    margin: 10px 0 0;
+}
+
+/* Rodapé da Página */
+
+footer {
+    background: #3b8183;
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    padding: 5px;
+}
+
+footer img {
+    width: 30px;
+}
+
+/* Design Responsivo */
+
+@media screen and (max-width: 480px) {
+    .caixa, .box-second-title, .bolos, main {
+        width: auto;
+    }
+
+    nav {
+        position: static;
+    }
+
+    h1, .title {
+        text-align: center;
+    }
+
+    .bolos li {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .bolos li img {
+        width: 100%;
+    }
+
+    .bolos p {
+        margin: 0 0 10px;
+    }
+}
